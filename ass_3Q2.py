@@ -2,7 +2,7 @@
 # pick a random number between 1 and 10, and then prompt the user to guess
 # the number. It should keep going until the user guesses the correct number,
 # and then output a message congratulating the user. It should also tell the
-# user how many guesses s/he needed to get the right answer.
+# user how many guesses she needed to get the right answer.
 
 from random import randint
 

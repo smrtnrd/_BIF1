@@ -1,5 +1,17 @@
-# Create a function that takes two arguments: a short DNA motif (e.g., ‘GACA’),
-# and another DNA sequence. The function should report back on whether the
-# motif is found in the DNA sequence. Demonstrate the use of this function by
-# calling it twice: once where the motif is found in the DNA sequence, and once
-# where it isn’t.
+import re
+import dna
+from dna import revComp
+
+good_seq = "ATGGGGACGAGTGCC"
+bad_seq = "CCATGAGATGAKLKAMNAA"
+
+revComp(good_seq)
+revComp(bad_seq)
+
+prmpts = "Hello, type your dna seq: "
+
+good_seq = raw_input(prmpts)
+revComp(good_seq)
+
+bad_seq = raw_input(prmpts)
+revComp(bad_seq)
