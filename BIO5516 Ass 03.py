@@ -16,8 +16,3 @@ while not is_found :
     else :
         print (message)
         break
-
-
-
-   
-
