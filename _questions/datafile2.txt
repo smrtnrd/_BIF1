@@ -1,0 +1,10 @@
+Trillian	91	48900
+Arthur	85	5000
+Zaphod	99	67500
+Ford	83	3600
+Marvin	87	6800
+Effrafax	90	8000
+Agrajag	52	50
+Fenchurch	78	3000
+Gail	84	4150
+Lunkwill	92	46000
