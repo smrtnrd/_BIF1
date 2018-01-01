@@ -1,0 +1,82 @@
+LOCUS       NZ_CP022049          4834614 bp    DNA     circular CON 29-JUN-2017
+DEFINITION  Citrobacter braakii strain FDAARGOS_290, complete genome.
+ACCESSION   NZ_CP022049
+VERSION     NZ_CP022049.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN06173303
+            Assembly: GCF_002208845.1
+KEYWORDS    RefSeq.
+SOURCE      Citrobacter braakii
+  ORGANISM  Citrobacter braakii
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Citrobacter; Citrobacter freundii complex.
+REFERENCE   1  (bases 1 to 4834614)
+  AUTHORS   Goldberg,B., Campos,J., Tallon,L., Sadzewicz,L., Sengamalay,N.,
+            Ott,S., Godinez,A., Nagaraj,S., Vavikolanu,K., Nadendla,S.,
+            George,J., Geyer,C. and Sichtig,H.
+  TITLE     FDA dAtabase for Regulatory Grade micrObial Sequences (FDA-ARGOS):
+            Supporting development and validation of Infectious Disease Dx
+            tests
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4834614)
+  AUTHORS   Goldberg,B., Campos,J., Tallon,L., Sadzewicz,L., Sengamalay,N.,
+            Ott,S., Godinez,A., Nagaraj,S., Vavikolanu,K., Nadendla,S.,
+            George,J., Geyer,C. and Sichtig,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2017) Center for Devices and Radiological Health,
+            US Food and Drug Administration, 10903 New Hampshire Avenue, Silver
+            Spring, MD 20993-0002, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP022049.
+            Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: CA v. 8.2
+            Genome Coverage       :: 26.43x
+            Sequencing Technology :: PacBio
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 06/28/2017 09:41:15
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS+
+            Annotation Software revision      :: 4.2
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 4,743
+            CDS (total)                       :: 4,623
+            Genes (coding)                    :: 4,389
+            CDS (coding)                      :: 4,389
+            Genes (RNA)                       :: 120
+            rRNAs                             :: 9, 8, 8 (5S, 16S, 23S)
+            complete rRNAs                    :: 9, 8, 8 (5S, 16S, 23S)
+            tRNAs                             :: 83
+            ncRNAs                            :: 12
+            Pseudo Genes (total)              :: 234
+            Pseudo Genes (ambiguous residues) :: 0 of 234
+            Pseudo Genes (frameshifted)       :: 166 of 234
+            Pseudo Genes (incomplete)         :: 49 of 234
+            Pseudo Genes (internal stop)      :: 62 of 234
+            Pseudo Genes (multiple problems)  :: 38 of 234
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4834614
+                     /organism="Citrobacter braakii"
+                     /mol_type="genomic DNA"
+                     /strain="FDAARGOS_290"
+                     /isolation_source="Blood"
+                     /host="Homo sapiens"
+                     /culture_collection="FDA:FDAARGOS_290"
+                     /db_xref="taxon:57706"
+                     /country="USA: DC"
+                     /collection_date="21-May-2014"
+                     /collected_by="George Washington University"
+CONTIG      join(CP022049.1:1..4834614)
+//
+
